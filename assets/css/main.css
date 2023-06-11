@@ -3624,7 +3624,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 7.5em 0 5.5em 0 ;
+		padding: 2.5em 0 1.5em 0 ;
 		position: relative;
 	}
 
@@ -4655,7 +4655,7 @@ input, select, textarea {
 	#banner {
 		background-color: #6eb792;
 		color: rgba(255, 255, 255, 0.75);
-		padding: 10em 0 6em 0 ;
+		padding: 40em 0 12em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4674,7 +4674,7 @@ input, select, textarea {
 		background-size: cover;
 		border-top: solid 10px #6eb792;
 		min-height: 75vh;
-		position: relative;
+		position:relative;
 		text-align: center;
 		width: 100%;
 	}
@@ -4808,7 +4808,7 @@ input, select, textarea {
 			transition-delay: 0.75s;
 			content: '';
 			display: block;
-			background: #202020;
+			/*background: #202020;*/
 			height: 100%;
 			left: 0;
 			opacity: 0.25;
@@ -4840,7 +4840,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 6em 0 3em 0 ;
+				padding: 20em 0 3em 0 ;
 				background-attachment: scroll;
 			}
 
@@ -4849,7 +4849,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 10em 0 6em 0 ;
+				padding: 20em 0 6em 0 ;
 			}
 
 				#banner .icon {
@@ -4861,7 +4861,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 0 2em 0 ;
+				padding: 15em 0 2em 0 ;
 			}
 
 				#banner > .inner {
@@ -4881,7 +4881,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 4em 0 1em 0 ;
+				padding: 10em 0 1em 0 ;
 			}
 
 		}
@@ -4895,7 +4895,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#main {
-				padding: 8em 0 3em 0;
+				padding: 12em 0 3em 0;
 			}
 
 		}
@@ -4903,7 +4903,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main {
-				padding: 6em 0 2em 0;
+				padding: 12em 0 2em 0;
 			}
 
 		}
