@@ -4435,12 +4435,15 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
+				display: none;
+
 			}
 
 			#header > .navPanelToggle:before {
 				content: '\f0c9';
 				line-height: inherit;
 				margin: 0 0.5em 0 0;
+				display: none;
 			}
 
 		#header.alt {
@@ -4454,6 +4457,7 @@ input, select, textarea {
 
 			#header.alt > .navPanelToggle {
 				margin-right: -1em;
+				display: none;
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -4497,6 +4501,7 @@ input, select, textarea {
 
 				#header > .logo > a {
 					font-size: 1em;
+					display: none;
 				}
 
 				#header > .logo > span {
